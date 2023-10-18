@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #8c8c8c;
+}
+
+.topo {
+    display: flex;
+    background: #000000;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+}
+
+
+#maromba {
+    margin: 10px 0px 0px 30px;
+}
+
+
+#titu {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0px 0px 0px;
+}
+
+#usrF{
+    margin: 20px 50px 0px 0px;
+    border: 2px solid white;
+}
+
+#tituInicio {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 590px 0px 0px;
+}
+
+
+
+#seta {
+    margin: 35px 0px 0px 0px;
+}
+
+
+.treino {
+    border: none;
+    background: #333;
+    width: 90px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto';
+    align-items: center;
+    margin: 40px 50px 0px 0px;
+    cursor: pointer;
+}
+
+
+#tituBody {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
+
+
+#teste {
+    cursor: pointer;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+#mc {
+    grid-column: 2;
+    grid-row: 1/2;
+    margin: 50px;
+}
+
+
+#userBreno {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    border-radius: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+
+}
+
+#userLorena {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    border-radius: 100px;
+    border: 5px solid black;
+
+}
+
+
+.back {
+    grid-column: 2;
+    grid-row: 1/2;
+    background: #333;
+    width: 1200px;
+    height: 400px;
+    margin: 0px 0px 50px 0px;
+    border: 5px solid black;
+    box-shadow: 10px 10px;
+}
+
+
+
+#userB {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    color: white;
+}
+
+
+#userL {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    color: white;
+}
+
+
+#usrF{
+    border-radius: 50px;
+}
+
+/* sla2 */
+
+.volta {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.back2 {
+    background: #000000;
+    width: 1300px;
+    height: 1100px;
+    margin: 20px 0px 50px 25px;
+}
+
+/**/
+
+
+
+/*SEGUNDA*/
+
+.backT {
+    background: #8c8c8c;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0px 20px 50px;
+}
+
+#titu1 {
+    display: flex;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.segunda {
+    background: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    grid-column: 1;
+    grid-row: 1/2;
+    margin: 30px 0px 0px 80px;
+}
+
+
+#text1 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    margin: 30px 0px 0px 115px;
+    padding: 0;
+}
+
+
+.ex {
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 30px 0px 0px 110px;
+    list-style: none;
+}
+
+
+#textEX {
+    margin: 0px 0px 5px 0px;
+}
+
+/*////////////////////////////////////*/
+
+
+/* TREINO SEGUNDA FIOTE*/
+
+#membro{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+#membro2{
+    position: absolute;
+    top: 110%;
+    left: 48%;
+    font-size: 22px;
+    color: white;
+    margin: 50px 0px 50px 0px;
+}
+
+.back3 {
+    background: #000000;
+    width: 1332px;
+    height: 2000px;
+    margin: 20px 5px 50px 9px;
+}
+
+#trenin {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin: 0;
+    padding: 20px 0px 50px 0px;
+}
+
+.gridS {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+/*ANTEBRAÇO*/
+
+.antebraço {
+    display: flex;
+}
+
+#imgEX {
+    grid-column: 1;
+    grid-row: 1/2;
+    margin: 50px 20px 50px 25px;
+}
+
+.textEX {
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px 0px 0px;
+}
+
+#XX {
+    font-size: 20px;
+    margin: 10px 0px 0px 5px;
+}
+
+#serieS {
+    margin: 5px 0px 0px 15px;
+}
+
+.btn {
+    position: absolute;
+    top: 83%;
+    left: 31%;
+    background: red;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px
+}
+
+
+.voltarB {
+    position: absolute;
+    top: 83%;
+    left: 43%;
+    background: rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px
+}
+/*//////////////*/
+
+/*img2 antebraço */
+
+#imgEX2 {
+    grid-column: 2;
+    grid-row: 1/2;
+    margin: 50px 20px 50px 10px;
+}
+
+.textEX2 {
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px 0px 0px;
+}
+
+#XX2 {
+    font-size: 20px;
+    margin: 10px 0px 0px 5px;
+}
+
+#serieS2 {
+    margin: 5px 0px 0px 15px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 83%;
+    left: 80%;
+    background: red;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px
+}
+
+.voltarB2 {
+    position: absolute;
+    top: 83%;
+    left: 92%;
+    background: rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px
+}
+
+
+/*IMG extensora*/
+.extensora{
+    display: flex;
+}
+
+#imgEX3{
+    grid-column: 1;
+    grid-row: 2/3;
+    margin: 50px 30px 50px 50px;
+}
+
+.textEX3{
+    color: white;
+    font-size: 20px;
+    margin: 60px 0px 0px 0px;
+}
+#XX3{
+    font-size: 25px;
+}
+
+#serieS3{
+    margin: 2px 0px 0px 15px;
+}
+
+.btn3 {
+    position: absolute;
+    top: 155%;
+    left: 33%;
+    background: red;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px
+}
+
+.voltarB3 {
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    background: rgb(0, 0, 0);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+/*TERÇA*/
+
+.backT2 {
+    background: #8c8c8c;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0px 20px 50px;
+    grid-column: 2;
+    grid-row: 1/2;
+}
+
+
+#titu2 {
+    display: flex;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.ex2 {
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+    list-style: none;
+}
+
+
+#textEX2 {
+    margin: 0px 0px 5px 0px;
+}
+
+
+#text2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    margin: 20px 0px 0px 115px;
+    padding: 0;
+}
+
+.terça {
+    background: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    grid-column: 2;
+    grid-row: 1/2;
+    margin: 30px 0px 0px 80px;
+}
+
+
+
+/*Quarta*/
+
+.backT3 {
+    background: #8c8c8c;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0px 20px 50px;
+    grid-column: 3;
+    grid-row: 1/2;
+}
+
+#titu3 {
+    display: flex;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+.ex3 {
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+    list-style: none;
+}
+
+#textEX3 {
+    margin: 0px 0px 5px 0px;
+}
+
+#text3 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    margin: 20px 0px 0px 115px;
+    padding: 0;
+}
+
+.quarta {
+    background: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 1/2;
+    margin: 30px 0px 0px 80px;
+}
+
+/**/
+
+
+/*qunita*/
+
+
+.backT4 {
+    position: absolute;
+    top: 105%;
+    left: 18%;
+    background: #8c8c8c;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0px 20px 50px;
+    grid-column: 1;
+    grid-row: 2/3;
+}
+
+#titu4 {
+    display: flex;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+.ex4 {
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    list-style: none;
+}
+
+#textEX4 {
+    margin: 0px 0px 5px 0px;
+}
+
+#text4 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    margin: 50px 0px 0px 115px;
+    padding: 0;
+}
+
+.quinta {
+    background: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 1/2;
+    margin: 30px 0px 0px 80px;
+}
+
+
+/**/
+
+/*Sexta*/
+
+.backT5 {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    background: #8c8c8c;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0px 20px 50px;
+    grid-column: 2;
+    grid-row: 2/3;
+}
+
+#titu5 {
+    display: flex;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+.ex5 {
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    list-style: none;
+}
+
+#textEX5 {
+    margin: 0px 0px 5px 0px;
+}
+
+#text5 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    margin: 50px 0px 0px 115px;
+    padding: 0;
+}
+
+.sexta {
+    background: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 1/2;
+    margin: 30px 0px 0px 80px;
+}
+
+
+
+
+
+
